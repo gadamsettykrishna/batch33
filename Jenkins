@@ -1,0 +1,21 @@
+pipeline{
+agent any{
+stages{
+stage("git checkout"){
+            
+}
+stage("build"){
+            
+}
+stage("unit test"){
+            echo ("testing")
+}
+stage("static code"){
+            echo ("Sonarcube")
+}
+stage("articafactory"){
+            echo ("artifacts ")
+}
+}
+}
+}
